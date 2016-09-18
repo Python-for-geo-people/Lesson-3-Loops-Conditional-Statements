@@ -77,6 +77,7 @@ Can you follow what happens in this loop?
     l
     t
     >>> print('After the loop, letter is', letter)
+    t
     ```
 6. A loop can be used to iterate over any list of values in Python. So far we have considered only character strings, but we could also write a loop that performs a calculation a specified number of times.
 
