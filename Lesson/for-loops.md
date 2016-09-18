@@ -96,17 +96,46 @@ What happens here? Well, in this case, we use a special function called `range()
     ```python
     >>> help(range)
     ```
-7. Often when you use `for` loops, you are looping over the values in an array and either calculating a new value or modifying the existing values. Let's consider an example.
+7. Often when you use `for` loops, you are looping over the values in a list and either calculating a new value or modifying the existing values. Let's consider an example.
 
     ```python
-    >>> import numpy as np
-    >>> myarray = np.zeros(10)
-    >>> print(myarray)
-    [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.]
-    >>> for i in range(10):
-    ...     myarray[i] = myarray[i] + i
+    >>> mylist = [0.0, 1.0, 2.0, 3.0, 4.0, 5.0]
+    >>> print(mylist)
+    [0.0, 1.0, 2.0, 3.0, 4.0, 5.0]
+    >>> for i in range(6):
+    ...     mylist[i] = mylist[i] + i
     ...
-    >>> print(myarray)
-    [ 0.  1.  2.  3.  4.  5.  6.  7.  8.  9.]
+    >>> print(mylist)
+    [0.0, 2.0, 4.0, 6.0, 8.0, 10.0]
     ```
-So, what happened? We first create and array of length 10 and fill it with zeros using `np.zeros()`. Then, we loop over 10 values using the `range()` function and add each value to the existing location in `myarray`. What would happen if we ran this for loop a second time?
+So, what happened?
+We first create a list of 6 numbers.
+Then, we loop over 6 values using the `range()` function and add each value to the existing location in `mylist`.
+What would happen if we ran this for loop a second time?
+
+8. One of the drawbacks in the example above is that we need to know the length of the list before running that `for` loop example.
+However, we already know how to find the length of a list using the `len()` function, and we can take advantage of this knowledge to make our `for` loop more flexible.
+
+    ```python
+    >>> for i in range(len(mylist)):
+    ...     mylist[i] = mylist[i] + i
+    ...
+    >>> print(mylist)
+    [0.0, 3.0, 6.0, 9.0, 12.0, 15.0]
+    ```
+We've done exactly what we had done in the previous example, but replaced the known length of the list `6` with use of the `len()` function to provide the list length.
+Now if we add or remove values in `mylist`, our code will still work as expected.
+
+    ```python
+    >>> mylist.append(18.0)
+    >>> mylist.append(21.0)
+    >>> print(mylist)
+    [0.0, 3.0, 6.0, 9.0, 12.0, 15.0, 18.0, 21.0]
+    >>> for i in range(len(mylist)):
+    ...     mylist[i] = mylist[i] + i
+    ...
+    >>> print(mylist)
+    [0.0, 4.0, 8.0, 12.0, 16.0, 20.0, 24.0, 28.0]
+    ```
+Using the `len()` function with `range()` to perform calcluations using list or array values is an *extremely* common operation in Python.
+    
