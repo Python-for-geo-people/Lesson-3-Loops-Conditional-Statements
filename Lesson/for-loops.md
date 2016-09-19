@@ -1,4 +1,8 @@
 # `for` loops
+## Sources
+This lesson is based on the [Software Carpentry group's](http://software-carpentry.org/) lessons on [Programming with Python](http://swcarpentry.github.io/python-novice-inflammation/).
+
+## Basics of `for` loops
 Loops allow parts of code to be repeated over some number of times.
 
 1. Let's consider an example. Suppose we want to take a word and print out each letter of the word separately. We could do the following:
