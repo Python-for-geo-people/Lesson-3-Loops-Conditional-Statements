@@ -1,8 +1,8 @@
 # Conditional statements
-Conditional statements can change the code behaviour based on meeting certain conditions.
-
 ## Sources
 This lesson is based on the [Software Carpentry group's](http://software-carpentry.org/) lessons on [Programming with Python](http://swcarpentry.github.io/python-novice-inflammation/).
+
+Conditional statements can change the code behaviour based on meeting certain conditions.
 
 1. Let's take a simple example.
 
