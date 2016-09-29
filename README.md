@@ -1,4 +1,4 @@
-# Control flow
+# Lesson 3: Control flow
 Control flow is the term used to refer to how the execution of different parts of a computer program is determined.
 In this lesson we will look at two main types of control flow concepts: (1) Loops, which are used to repeat execution of parts of a program, and (2) conditional statements, which use basic logical tests to determine which parts of a program will be run.
 
