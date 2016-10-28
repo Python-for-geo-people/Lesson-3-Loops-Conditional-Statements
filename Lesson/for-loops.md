@@ -143,3 +143,6 @@ Now if we add or remove values in `mylist`, our code will still work as expected
     ```
 Using the `len()` function with `range()` to perform calcluations using list or array values is an *extremely* common operation in Python.
     
+## 
+**Next**: [Conditional statements](conditional-statements.md)<br/>
+**Home**: [Lesson 3 main page](https://github.com/Python-for-geo-people/Lesson-3-Loops-Conditional-Statements)<br/>
