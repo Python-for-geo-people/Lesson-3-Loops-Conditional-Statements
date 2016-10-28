@@ -68,3 +68,8 @@ Makes sense, right? Note here that we use the `==` to test if a value is equal t
     At least one test is true
     ```
 This can be quite handy.
+
+## 
+**Next**: [Exercise 3: `for` loops and conditional statements](https://classroom.github.com/assignment-invitations/f8a6eacb78c2f06f8834b391d129a6ab)<br/>
+**Home**: [Lesson 3 main page](https://github.com/Python-for-geo-people/Lesson-3-Loops-Conditional-Statements)<br/>
+**Previous**: [Definite loops](for-loops.md)
