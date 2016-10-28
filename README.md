@@ -6,7 +6,7 @@ In this lesson we will look at two main types of control flow concepts: (1) Loop
 
 1. [Definite loops](Lesson/for-loops.md)
 2. [Conditional statements](Lesson/conditional-statements.md)
-3. [Exercise 3 - `for` loops and conditional statements](https://classroom.github.com/assignment-invitations/f8a6eacb78c2f06f8834b391d129a6ab)
+3. [Exercise 3: `for` loops and conditional statements](https://classroom.github.com/assignment-invitations/f8a6eacb78c2f06f8834b391d129a6ab)
 
 ## Resources
 - Past lesson materials
